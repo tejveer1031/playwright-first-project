@@ -1,0 +1,37 @@
+# Node.js and Playwright Specific Ignores
+
+node_modules/         # Node.js dependencies - very important to ignore!
+package-lock.json     # (If using npm) Dependency lock file - often ignored, sometimes committed depending on team preference
+yarn.lock            # (If using Yarn) Dependency lock file - often ignored, sometimes committed depending on team preference
+
+# Playwright output directories
+test-results/        # Default directory for Playwright test results
+playwright-report/    # Default directory for Playwright HTML reports
+
+# Editor/IDE specific files (examples - adjust for your editor)
+.vscode/              # VS Code specific settings and cache
+.idea/                # IntelliJ IDEA / WebStorm specific files
+*.suo                 # Visual Studio Solution User Options
+*.user              # Visual Studio User-Specific Files
+*.swp                 # Swap files (vim, etc.)
+*~                    # Backup files (many editors)
+
+# System and temporary files
+.DS_Store             # macOS folder settings file
+Thumbs.db             # Windows thumbnail cache
+*.log                 # Log files
+*.tmp                 # Temporary files
+temp/                # Temporary directory
+
+# Configuration files that might contain sensitive information (if you have any locally specific configs)
+# config.local.js
+# .env*               # Environment variable files (be careful with these if they contain secrets!)
+
+# OS generated files
+[Tt]rash/              # macOS trash
+*.DS_Store            # macOS desktop services store
+._*                   # macOS resource forks
+*/ehthumbs.db         # Windows thumbnail cache files
+*/ehthumbs_*.pfl     # Windows thumbnail cache files
+*.Spotlight-V100     # macOS metadata files
+*.Trashes             # macOS trash directories
