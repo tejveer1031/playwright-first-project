@@ -1,0 +1,5 @@
+org\examples\managers\BrowserManagers.class
+org\examples\RunCucumber\RunCucumberTest.class
+org\examples\scenarioContext\ScenarioContext.class
+org\examples\stepDefinitions\LoginSteps.class
+org\examples\hooks\CucumberHooks.class

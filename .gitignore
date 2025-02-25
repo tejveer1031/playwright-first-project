@@ -35,3 +35,9 @@ temp/                # Temporary directory
 */ehthumbs_*.pfl     # Windows thumbnail cache files
 *.Spotlight-V100     # macOS metadata files
 *.Trashes             # macOS trash directories
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
