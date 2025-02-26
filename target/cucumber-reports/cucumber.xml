@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="8.358" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-02-26T22:46:01.929812600Z">
+<testcase classname="User Login" name="Successful login with valid credentials" time="8.126">
+<system-out><![CDATA[
+Given User is on main dashboard page........................................passed
+And navigate to login page..................................................passed
+Then User is on the login page..............................................passed
+When User enters valid username and password................................passed
+And User clicks the "Login" button..........................................passed
+Then User should be logged in successfully log in and navigate to main dashboard.passed
+]]></system-out>
+</testcase>
+</testsuite>
