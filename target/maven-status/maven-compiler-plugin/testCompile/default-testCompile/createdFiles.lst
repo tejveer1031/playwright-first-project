@@ -1,3 +1,8 @@
-org\examples\runners\RunCucumberTest.class
+org\examples\utilities\ConfigReader.class
+org\examples\pages\DashboardPage.class
+org\examples\pages\LoginPage.class
+org\examples\scenarioContext\ScenarioContext.class
 org\examples\stepDefinitions\LoginSteps.class
+org\examples\runners\RunCucumberTest.class
+org\examples\managers\BrowserManager.class
 org\examples\hooks\CucumberHooks.class

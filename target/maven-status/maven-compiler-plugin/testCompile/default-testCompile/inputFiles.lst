@@ -1,3 +1,8 @@
+C:\Playwright_Project\playwright-first-project\src\test\java\org\examples\pages\DashboardPage.java
+C:\Playwright_Project\playwright-first-project\src\test\java\org\examples\pages\LoginPage.java
 C:\Playwright_Project\playwright-first-project\src\test\java\org\examples\stepDefinitions\LoginSteps.java
+C:\Playwright_Project\playwright-first-project\src\test\java\org\examples\managers\BrowserManager.java
+C:\Playwright_Project\playwright-first-project\src\test\java\org\examples\scenarioContext\ScenarioContext.java
+C:\Playwright_Project\playwright-first-project\src\test\java\org\examples\utilities\ConfigReader.java
 C:\Playwright_Project\playwright-first-project\src\test\java\org\examples\runners\RunCucumberTest.java
 C:\Playwright_Project\playwright-first-project\src\test\java\org\examples\hooks\CucumberHooks.java
